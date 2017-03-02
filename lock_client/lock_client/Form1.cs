@@ -36,6 +36,8 @@ namespace lock_client
         {
             Focus();
             Activate();
+            label1.Text = DateTime.Now.ToString("hh:mm");
+            label2.Text = DateTime.Now.ToString("yyyy-MM-dd, ddd");
         }
     }
 }
