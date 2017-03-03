@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace lock_client
 {
-    class DisableModule
+    class Module
     {
         [DllImport("user32.dll")]
         private static extern bool SetForegroundWindow(IntPtr hWnd);
@@ -50,7 +50,8 @@ namespace lock_client
             {
                 MessageBox.Show(ex.Message, "Registry Error!");
             }
-
         }
+
+
     }
 }
