@@ -139,10 +139,7 @@ namespace lock_client
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Environment.Exit(0);
-            Console.WriteLine("env.Exit");
-            Application.Exit();
-            Console.WriteLine("App.Exit");
+            this.Close();
         }
     }
 }
